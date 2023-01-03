@@ -1,19 +1,36 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
 }
 
-.pre-nav {
-    padding: 20px 40px 20px 45px;
+.nav {
     display: flex;
-}
-
-.pre-nav>svg {
-    height: 32px;
-}
-
-.toggle {
-    height: 32px;
     width: 100%;
-    background-color: aqua;
+    padding: 15px 100px;
+    background-color: black;
+}
+
+.nav>img {
+    width: 130px;
+}
+
+.nav>img:hover {
+    cursor: pointer;
+}
+
+.nav>ul {
+    list-style: none;
+    display: flex;
+    margin-top: 6px;
+}
+
+.nav li {
+    display: flex;
+    color: white;
+    margin-left: 20px;
+}
+
+.nav i {
+    margin-left: 10px;
 }
