@@ -39,8 +39,13 @@
     display: flex;
 }
 
+.mainli {
+    position: relative;
+}
+
 .dropdown {
-    width: 200px;
-    height: 100px;
+    top: 39px;
+    position: absolute;
+    padding: 20px;
     background-color: aqua;
 }
