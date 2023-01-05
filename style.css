@@ -13,6 +13,7 @@
 
 .nav>img {
     width: 130px;
+    height: 30px;
 }
 
 .nav>img:hover {
@@ -25,12 +26,21 @@
     margin-top: 6px;
 }
 
-.nav li {
-    display: flex;
+.nav>ul>li {
     color: white;
     margin-left: 20px;
 }
 
 .nav i {
     margin-left: 10px;
+}
+
+.inner-div {
+    display: flex;
+}
+
+.dropdown {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
 }
